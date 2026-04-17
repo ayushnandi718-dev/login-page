@@ -7,7 +7,6 @@ A modern, responsive authentication UI template with ready-to-use OAuth skeleton
 
 ---
 ![GitHub stars](https://img.shields.io/github/stars/ayushnandi718-dev/login-page)
-![License](https://img.shields.io/github/license/ayushnandi718-dev/login-page)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## ✨ Features
