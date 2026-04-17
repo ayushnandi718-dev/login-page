@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementation Guide</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0d0d0d;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #00f7ff;
+        }
+
+        p {
+            color: #ccc;
+        }
+
+        code {
+            background: #1a1a1a;
+            padding: 4px 8px;
+            border-radius: 5px;
+        }
+
+        pre {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 10px;
+            overflow-x: auto;
+        }
+
+        .step {
+            margin-bottom: 30px;
+        }
+
+        .note {
+            background: #111;
+            border-left: 4px solid #00f7ff;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🚀 Implementation Guide</h1>
+    <p>Follow these steps to integrate the Auth UI Template into your project.</p>
+
+    <!-- Step 1 -->
+    <div class="step">
+        <h2>1. Clone the Repository</h2>
+        <pre>
+git clone https://github.com/your-username/login-page.git
+cd login-page
+        </pre>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="step">
+        <h2>2. Setup Configuration</h2>
+        <p>Rename the config file:</p>
+        <pre>/config/config.example.js → /config/config.js</pre>
+
+        <p>Add your API keys:</p>
+        <pre>
+export const CONFIG = {
+  GOOGLE_CLIENT_ID: "YOUR_GOOGLE_CLIENT_ID",
+  GITHUB_CLIENT_ID: "YOUR_GITHUB_CLIENT_ID",
+  FACEBOOK_APP_ID: "YOUR_FACEBOOK_APP_ID",
+  LINKEDIN_CLIENT_ID: "YOUR_LINKEDIN_CLIENT_ID",
+  REDIRECT_URI: "http://localhost:5500/callback/linkedin.html"
+};
+        </pre>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="step">
+        <h2>3. Enable Authentication Providers</h2>
+        <ul>
+            <li>Google → Firebase or Google Cloud</li>
+            <li>GitHub → Developer Settings</li>
+            <li>Facebook → Meta Developers</li>
+            <li>LinkedIn → LinkedIn Developers</li>
+        </ul>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="step">
+        <h2>4. Run the Project</h2>
+        <pre>
+Open index.html in your browser
+        </pre>
+    </div>
+
+    <!-- Step 5 -->
+    <div class="step">
+        <h2>5. LinkedIn Setup (Important)</h2>
+        <p>LinkedIn requires backend integration.</p>
+
+        <div class="note">
+            ⚠️ The template only handles UI + redirect.<br>
+            You must exchange the <code>code</code> on your backend.
+        </div>
+    </div>
+
+    <!-- Step 6 -->
+    <div class="step">
+        <h2>6. Deploy</h2>
+        <p>You can deploy using:</p>
+        <ul>
+            <li>GitHub Pages</li>
+            <li>Netlify</li>
+            <li>Vercel</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        Made with ❤️ by Ayush
+    </div>
+
+</div>
+
+</body>
+</html>
