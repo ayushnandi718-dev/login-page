@@ -6,6 +6,8 @@ A modern, responsive authentication UI template with ready-to-use OAuth skeleton
 > ⚡ Perfect for developers who want to plug in authentication quickly without building UI from scratch.
 
 ---
+![GitHub stars](https://img.shields.io/github/stars/ayushnandi718-dev/repo)
+![License](https://img.shields.io/github/license/ayushnandi718-dev/repo)
 
 ## ✨ Features
 
@@ -139,7 +141,8 @@ You can deploy easily on:
 * GitHub Pages
 * Netlify
 * Vercel
-
+## 🌐 Live Demo
+https://your-demo.netlify.app
 ---
 
 ## 🤝 Contributing
