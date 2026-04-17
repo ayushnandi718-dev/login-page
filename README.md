@@ -6,8 +6,8 @@ A modern, responsive authentication UI template with ready-to-use OAuth skeleton
 > ⚡ Perfect for developers who want to plug in authentication quickly without building UI from scratch.
 
 ---
-![GitHub stars](https://img.shields.io/github/stars/ayushnandi718-dev/repo)
-![License](https://img.shields.io/github/license/ayushnandi718-dev/repo)
+![GitHub stars](https://img.shields.io/github/stars/ayushnandi718-dev/login-page)
+![License](https://img.shields.io/github/license/ayushnandi718-dev/login-page)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## ✨ Features
@@ -32,7 +32,7 @@ A modern, responsive authentication UI template with ready-to-use OAuth skeleton
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/auth-ui-template.git
+https://github.com/ayushnandi718-dev/login-page.git
 cd auth-ui-template
 ```
 
@@ -82,7 +82,7 @@ export const CONFIG = {
 
 * Create app in Meta Developers
 * Enable Facebook Login
-* Add redirect URI
+* Add redirect URL
 
 ---
 
@@ -138,8 +138,6 @@ You can deploy easily on:
 * GitHub Pages
 * Netlify
 * Vercel
-## 🌐 Live Demo
-https://your-demo.netlify.app
 ---
 
 ## 🤝 Contributing
